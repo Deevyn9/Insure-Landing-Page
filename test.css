@@ -1,0 +1,55 @@
+.diff-content {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.diff-header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.diff-description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.snappy, .affordable, .ppl-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.snappy-img {
+    background: url(/images/icon-snappy-process.svg) no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.affordable-img {
+    background: url(/images/icon-affordable-prices.svg) no-repeat;
+    height: 100px;
+    width: 100px;
+}
+
+.people-img {
+    background: url(/images/icon-people-first.svg) no-repeat;
+    height: 100px;
+    width: 100px;
+} 
+
+.desc-header {
+    font-size: 20px;
+}
+
+.desc-p {
+    color: hsl(273, 4%, 51%);
+    font-size: 20px;
+    padding: 0 40px;
+}
