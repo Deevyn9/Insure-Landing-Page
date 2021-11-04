@@ -15,6 +15,7 @@ body {
     --VeryLightGray: hsl(0, 0%, 98%);
     --toggle-btn: url(/images/icon-hamburger.svg);
 
+    font-size: 18px;
     font-family: 'Karla', sans-serif;
 }
 /* NAVBAR */
@@ -220,6 +221,7 @@ body {
 .diff-description {
     padding-top: 70px;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
 }
 
@@ -229,17 +231,8 @@ body {
     align-items: flex-start;
     justify-content: center;
     padding-bottom: 30px;
-    padding-right: 20px;
 }
 
-.ppl-first {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding-bottom: 30px;
-
-}
 .snappy-img {
     background: url(/images/icon-snappy-process.svg) no-repeat;
     height: 100px;
@@ -267,7 +260,7 @@ body {
 
 .desc-p {
     color: hsl(273, 4%, 51%);
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 #work {
@@ -414,9 +407,13 @@ footer {
     .footer {
         margin: 0 2rem;
     }
+
+    .desc-header {
+        font-size: 1.5rem;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 661px) {
     .logo {
         background: url(/images/logo.svg) no-repeat;
         height: 30px;
@@ -539,11 +536,11 @@ footer {
         bottom: 0;
         left: 0;
         right: 0;
-        background: url(/images/image-intro-desktop.jpg) no-repeat;
+        background: url(/images/image-intro-mobile.jpg) no-repeat;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
+        height: 501px;
         margin-top: 10vh;
-        height: 120vh;
     }    
 
     hr {
@@ -733,10 +730,9 @@ footer {
         border: 2px solid var(--VeryLightGray);
     }
 
-    .family {
-        width: 100%;
-        height: 73vh;
-    }   
+    /* .family {
+        min-height: 55vh;
+    }    */
 
     .humanizing h1 {
         font-size: 50px;
@@ -779,10 +775,9 @@ footer {
 }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .family {
-        width: 100%;
-        height: 65vh;
+        height: 471px;
     }   
 
     .humanizing h1 {
@@ -809,10 +804,9 @@ footer {
 }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .family {
-        width: 100%;
-        height: 55vh;
+        height: 70vh;
     }   
 
     .humanizing h1 {
